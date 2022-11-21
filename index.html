@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Hello World!</title>
+	<title>MICUS.AI</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Site description will be here">
+	<link rel="icon" href="images/fav.png">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
@@ -24,21 +25,21 @@
 		<!-- offcanvas-start -->
 		<div class="offcanvas-menu">
 			<ul class="offmenu" id="menuParent">
-				<a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-				<li class="active"><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT US</a></li>
-				<li class="dropdown">
-					<a href="#" data-bs-toggle="collapse" data-bs-target='#drop-menu1'>OUR HORSES</a>
-					<div class="dropdown-menu-custom collapse" id="drop-menu1" data-bs-parent="#menuParent">
-						<ul>
-							<li><a href="#">YEARLINGS</a></li>
-							<li><a href="#">2 YEAR OLDS</a></li>
-							<li><a href="#">3 YEAR OLD PLUS</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">LATEST NEWS</a></li>
-				<li><a href="#">CONTACT & FIND US</a></li>
+				<a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+				<div class="mobile-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="order.html">Order</a></li>
+					<li><a href="product.html">Products</a></li>
+					<li><a href="media.html">Media</a></li>
+					<li><a href="careers.html">Careers</a></li>
+					<li><a href="contact-us.html">Contact</a></li>	
+				</div>
+				<div class="d-flex justify-content-center mt-4">
+					<a href="#" class="default-button">
+						<i class="fa fa-user f-icon"></i>
+						<span class="txt">LOGIN</span>
+					</a>
+				</div>
 			</ul>
 		</div>
 		<div class="offcanvas-overlay"></div>
@@ -53,23 +54,32 @@
 							<img src="images/logo.svg" alt="">
 						</a>
 
-						<div class="header__right">
+						<div class="header__right d-xl-flex d-none">
 							<div class="main-menu">
 								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Order</a></li>
-									<li><a href="#">Products</a></li>
-									<li><a href="#">Media</a></li>
-									<li><a href="#">Careers</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="order.html">Order</a></li>
+									<li><a href="product.html">Products</a></li>
+									<li><a href="media.html">Media</a></li>
+									<li><a href="careers.html">Careers</a></li>
+									<li><a href="contact-us.html">Contact</a></li>
 								</ul>
 							</div>
 
-							<a href="#" class="default-button">
-								<i class="fab fa-user f-icon"></i>
+							<a href="#" class="default-button header__right-button">
+								<i class="fa fa-user f-icon"></i>
 								<span class="txt">LOGIN</span>
 							</a>
 						</div>
+
+						<a href="javascript:void(0)" class="offcanvas-open d-xl-none">
+							<svg width="49" height="47" viewBox="0 0 49 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect class="bg" width="49" height="47" rx="8" fill="#5D8966" fill-opacity="0.5"/>
+								<rect class="bar" x="11" y="12" width="28" height="3" rx="1.5" fill="white"/>
+								<rect class="bar" x="11" y="22" width="28" height="3" rx="1.5" fill="white"/>
+								<rect class="bar" x="11" y="32" width="28" height="3" rx="1.5" fill="white"/>
+							</svg>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -81,7 +91,7 @@
 			<section class="hero-section">
 				<div class="hero__background">
 					<img src="images/hero-shape1.png" alt="" class="shape shape1">
-					<img src="images/hero-shape2.png" alt="" class="shape shape1">
+					<img src="images/hero-shape2.png" alt="" class="shape shape2">
 				</div>
 				<div class="container">
 					<div class="hero-section__inner">
@@ -89,10 +99,14 @@
 
 							<div class="hero__content">
 								<h1 class="h1">Amicus Investment Copilot</h1>
-								<p>Quantitative machine learning suggests company AI analyst reports based on your intuition.</p>
+								<p>Quantitative machine learning suggests 
+									<br class="d-md-block d-none">
+									company AI analyst reports based on your
+									<br class="d-md-block d-none">
+									intuition.</p>
 							</div>
 
-							<div class="hero-video">
+							<div class="hero__video">
 								<img src="images/video-thumb.png" alt="" class="video-thumb">
 								<a href="https://www.youtube.com/watch?v=1ArVtCQqQRE" class="play-button popup-video">
 									<img src="images/video-button.png" alt="">
@@ -109,30 +123,32 @@
 				<div class="container">
 					<div class="brands-section__inner">
 						<div class="brands__row1">
-							<div class="brands_wrapper">
-								<div class="brand-single">
-									<img src="images/nvidia.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/northwestern-mutual.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/dolford.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/blackrock.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/sandeford-university.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/panna.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/martini.png" alt="">
-								</div>
-								<div class="brand-single">
-									<img src="images/poplar.png" alt="">
+							<div class="brands__row1__left">
+								<div class="brands_wrapper">
+									<a href="#" class="brand-single">
+										<img class="img" src="images/nvidia.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/northwestern-mutual.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/dolford.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/blackrock.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/sandeford-university.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/panna.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/martini.png" alt="">
+									</a>
+									<a href="#" class="brand-single">
+										<img class="img" src="images/poplar.png" alt="">
+									</a>
 								</div>
 							</div>
 
@@ -148,10 +164,11 @@
 
 			<!-- faq-section -->
 			<section class="faq-section">
+				<div class="faq__background"></div>
 				<div class="container">
 					<div class="faq-section__inner">
 						<div class="sec-title faq-section__title cont_blk cont_blk--center">
-							<h2 class="h2">Frequently Asked Questions</h2>
+							<h2 class="h2 mb-0">Frequently Asked Questions</h2>
 						</div>
 
 						<div class="faqs_wrapper" id="faq-parent">
@@ -220,7 +237,7 @@
 						<!-- title -->
 						<div class="sec-title pu-section__title cont_blk cont_blk--center">
 							<h2 class="h2">Power Up</h2>
-							<h4>Multi-AI idetifies macroeconomic perturbations affecting growth and intrinsic value</h4>
+							<h4 class="h4 mb-0">Multi-AI idetifies macroeconomic perturbations affecting growth and intrinsic value</h4>
 						</div>
 						<!-- title-end -->
 						<!-- pu-glob-row -->
@@ -240,7 +257,7 @@
 
 
 			<!-- pt-section -->
-			<section class="pt-section">
+			<section class="pt-section before-footer-section">
 				<div class="container">
 					<div class="pt-section__inner">
 						<div class="pt__row1">
@@ -271,11 +288,12 @@
 
 			<!-- footer-at-box -->
 			<div class="footer__at-box_outer">
+				<div style="height: 1px;"></div>
 				<div class="container">
 					<div class="footer__at-box">
-						<h4></h4>
-						<h2></h2>
-						<a href="#" class="big-button">ORDER NOW</a>
+						<h4>Supercharge</h4>
+						<h2>Your Portfolio</h2>
+						<a href="#" class="big-button bottom-button">ORDER NOW</a>
 					</div>
 				</div>
 			</div>
@@ -297,7 +315,7 @@
 									<li>
 										<a href="#">
 											<div class="icon">
-												<i class="fab fa-map-marker-alt"></i>
+												<i class="fa fa-map-marker-alt"></i>
 											</div>
 											<div class="txt">
 												Palo Alto Research Campus <br>
@@ -310,7 +328,7 @@
 									<li>
 										<a href="contact@amicus.ai">
 											<div class="icon">
-												<i class="fab fa-envelope"></i>
+												<i class="fa fa-envelope"></i>
 											</div>
 											<div class="txt">
 												contact@amicus.ai

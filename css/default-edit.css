@@ -1,3 +1,58 @@
+/* buttons */
+.default-button {
+    font-size: 20px;
+    min-height: 55px;
+    min-width: 165px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000 !important;
+    background: #fff !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+.default-button:hover {
+    background: var(--theme__color2) !important;
+    color: #fff !important;
+}
+.default-button .f-icon {
+    font-size: 17px;
+    margin: 0 12px 0 0;
+    color: var(--theme__color1);
+    transition: 0.3s;
+}
+.default-button:hover .f-icon {
+    color: #fff;
+}
+
+
+
+.big-button {
+    font-size: 35px;
+    min-height: 108px;
+    min-width: 165px;
+    padding: 10px 80px;
+    border-radius: 80px;
+    font-weight: 700;
+    color: #5D8966 !important;
+    background: #fff !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--montserrat);
+    transition: 0.3s;
+}
+.big-button:hover {
+    background: var(--theme__color2) !important;
+    color: #fff !important;
+}
+/* buttons-end */
+
+
 /* small-tools */
 .underline {
     text-decoration: underline !important;
