@@ -263,6 +263,7 @@
 
     .hero__background {
         mask: url('../images/mobile-image/mobile-hero-mask.png') no-repeat center center/100% 100%;
+        -webkit-mask: url('../images/mobile-image/mobile-hero-mask.png') no-repeat center center/100% 100%;
     }
     .hero-section {
         padding: 135px 0 105px;
@@ -286,6 +287,7 @@
 
     .faq__background {
         mask: url('../images/mobile-image/mobile-faq-mask.png') no-repeat center center/100% 100%;
+        -webkit-mask: url('../images/mobile-image/mobile-faq-mask.png') no-repeat center center/100% 100%;
     }
     .faq-section {
         padding: 70px 0 70px;

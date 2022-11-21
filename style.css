@@ -332,6 +332,7 @@ p:last-child{
   width: 100%;
   z-index: -1;
   mask: url('images/hero-mask.png') no-repeat center center/100% 100%;
+  -webkit-mask: url('images/hero-mask.png') no-repeat center center/100% 100%;
 }
 .hero__background .shape1 {
   width: 512px;
@@ -459,6 +460,7 @@ p:last-child{
   width: 100%;
   z-index: -1;
   mask: url('images/faq-mask.png') no-repeat center center/100% 100%;
+  -webkit-mask: url('images/faq-mask.png') no-repeat center center/100% 100%;
 }
 .faq-section__inner {
   padding: 0 10.5%;
