@@ -1,4 +1,4 @@
-@media (max-width: 1599px) {
+@media (max-width: 1899px) {
     .main-menu > ul > li a {
         font-size: 16px;
     }
@@ -46,6 +46,21 @@
     }
     .hero-section {
         padding: 180px 0 160px;
+    }
+    .hero-section--title__content .h1 {
+        font-size: 65px;
+    }
+    .hero-section.hero-section--title {
+        padding: 140px 0 120px;
+    }
+    .hero-section--title__content {
+        min-height: 300px;
+    }
+    .hero-section.hero-section--title .hero__background .shape1 {
+        bottom: -110px;
+    }
+    .hero-section.hero-section--title .hero__background .shape2 {
+        bottom: -110px;
     }
 
 
@@ -179,6 +194,106 @@
         padding: 30px 0;
     }
 
+
+    .bm-p {
+        font-size: 16px;
+    }
+    .contact__content .contact__cta-menu {
+        padding: 5px 0 0;
+    }
+    .contact__form {
+        padding: 40px 30px;
+        border-radius: 15px;
+    }
+    .contact__form .form__title h3 {
+        font-size: 30px;
+    }
+    .contact__form .form__title {
+        margin: 0 0 24px;
+    }
+    .single_input-x {
+        margin: 0 0 20px;
+    }
+    .contact__form .submit-button {
+        min-width: 150px;
+    }
+    .contact-section {
+        padding: 70px 0 160px;
+    }
+
+
+    .tube__row1 {
+        --inner-space: 35px;
+    }
+    .tube-section {
+        padding: 60px 0;
+    }
+    .fe-section {
+        padding: 60px 0;
+    }
+
+    .bs-p {
+        font-size: 13px;
+    }
+    .frame-x__bt {
+        margin: 16px 0 0;
+    }
+
+    .frame-x-section {
+        padding: 60px 0 140px;
+    }
+
+
+    .order-section {
+        margin-top: -210px;
+    }
+    .pricing-card_wrapper {
+        --inner-space: 30px;
+    }
+    .pricing-card__title h3 {
+        font-size: 25px;
+        margin: 0 0 10px;
+    }
+    .pricing-card__title p {
+        font-size: 17px;
+    }
+    .pricing-card__title {
+        padding: 26px 0 20px;
+    }
+    .pricing-card__prow {
+        padding: 0px 0;
+    }
+    .px-check-ul li::before {
+        font-size: 9px;
+        height: 14px;
+        width: 14px;
+        top: 7px;
+    }
+    .px-check-ul li {
+        font-size: 16px;
+        padding-left: 26px;
+        margin-bottom: 15px;
+    }
+    .price-card__main {
+        padding: 22px 35px 35px;
+    }
+    .price-card__m-bottom {
+        padding: 34px 0 0;
+    }
+    .pricing-card__prow h3 {
+        font-size: 65px;
+    }
+
+    .before-footer-section {
+        padding-bottom: 360px !important;
+    }
+    .order_drow {
+        margin-top: 140px;
+    }
+    .order-d-single .texts h4 {
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 1399px) {
@@ -187,7 +302,27 @@
 
 
 @media (max-width: 1199px) {
- 
+    .contact-section__inner {
+        padding: 0;
+    }
+
+    .tube__row2 {
+        padding: 0;
+    }
+
+    .fe-section__inner {
+        padding: 0;
+    }
+
+    .frame-x-section__inner {
+        padding: 0;
+    }
+
+
+    .tube__row1 {
+        --inner-space: 20px;
+    }
+
 }
 
 
@@ -245,6 +380,62 @@
     .faq-section__inner {
         padding: 0;
     }
+
+
+    .contact__row1 {
+        flex-wrap: wrap;
+    }
+    .contact__content {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+    .contact__form {
+        width: 100%;
+    }
+
+
+    .fe__row1 {
+        flex-wrap: wrap;
+    }
+    .fe__r1__image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 40px;
+    }
+    .fe__r1__content {
+        width: 100%;
+    }
+
+    
+    .pricing-card_wrapper {
+        --item: 1;
+    }
+    .pricing-card__prow h3 {
+        font-size: 80px;
+    }
+    .order-d-single .texts h4 {
+        font-size: 30px;
+    }
+    .order_drow {
+        --inner-space: 90px;
+        --item: 1;
+    }
+    .order-d-single {
+        padding-bottom: 80px;
+    }
+    .order-d-single:last-child {
+        padding-bottom: 0;
+    }
+    .order-d-single::after {
+        height: 2px;
+        width: 120px;
+        background: url('../images/order-d-line-vertical.png') no-repeat center center/100% 100%;
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        transform: translate(50%,-50%);
+    }
 }
 
 
@@ -283,6 +474,24 @@
         width: 100px;
         height: 340px;
     }
+    .hero-section--title__content .h1 {
+        font-size: 50px;
+    }
+    .hero-section.hero-section--title {
+        padding: 115px 0 70px;
+    }
+    .hero-section--title__content {
+        min-height: 150px;
+    }
+    .hero-section.hero-section--title .hero__background .shape1 {
+        bottom: -54px;
+        width: 110px;
+    }
+    .hero-section.hero-section--title .hero__background .shape2 {
+        bottom: -184px;
+        width: 105px;
+    }
+
 
 
     .faq__background {
@@ -339,7 +548,8 @@
         margin: -170px auto 0;
     }
     .footer-section::before {
-        height: 25px;
+        height: 32px;
+        background-size: 100% 450px;
     }
     .before-footer-section {
         padding-bottom: 230px !important;
@@ -356,6 +566,39 @@
     .footer__bottom__content .copyright {
         line-height: 1.8;
     }
+
+
+    .contact-section {
+        padding: 50px 0 110px;
+    }
+
+
+    .tube-section {
+        padding: 25px 0;
+    }
+    .tube__row2 {
+        margin: 35px 0 0;
+    }
+
+
+    .fe-section {
+        padding: 50px 0;
+    }
+    .frame-x-section {
+        padding: 45px 0 60px;
+    }
+    .frame-x__bt {
+        text-align: center;
+    }
+
+
+    .order-section {
+        margin-top: -90px;
+    }
+
+    .hero-section--order .hero-section--title__content {
+        padding-bottom: 40px;
+    }
 }
 
 
@@ -367,7 +610,7 @@
 }
 
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
     .container {
         padding: 0 20px;
     }
@@ -398,5 +641,36 @@
 
     .footer__at-box h2 {
         font-size: 36px;
+    }
+
+    .h2 {
+        font-size: 35px;
+    }
+
+    .contact__form {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+
+
+    .hero-section--title__content .h1 {
+        font-size: 40px;
+    }
+
+    
+    .pricing-card__prow h3 {
+        font-size: 65px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    .container {
+        padding: 0 12px;
+    }
+
+
+    .price-card__main {
+        padding: 22px 20px 35px;
     }
 }

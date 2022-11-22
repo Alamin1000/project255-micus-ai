@@ -27,6 +27,10 @@
 .default-button:hover .f-icon {
     color: #fff;
 }
+.default-button--theme1 {
+    background: var(--theme__color1) !important;
+    color: #fff !important;
+}
 
 
 
