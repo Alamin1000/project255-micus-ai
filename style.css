@@ -445,6 +445,9 @@ p:last-child{
   justify-content: center;
   align-items: center;
 }
+.hero-section--title__content-in-car {
+  padding: 0 11%;
+}
 .hero-section--order .hero-section--title__content {
   padding-bottom: 120px;
 }
@@ -1011,6 +1014,35 @@ p:last-child{
 }
 .fe__r1__content p {
 
+}
+
+
+.mx-ul {
+
+}
+.mx-ul li {
+  margin-bottom: 24px;
+  padding-left: 25px;
+  font-size: 23px;
+  font-weight: 500;
+  position: relative;
+}
+.mx-ul li::before {
+  font-size: 15px;
+  color: var(--theme__color1);
+  content: '\f054';
+  font-family: "Font Awesome 5 Pro";
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.mx-ul li:last-child {
+  margin-bottom: 0;
+}
+.mx-ul li .s-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #9A9A9A;
 }
 /* ---fe-section---end */
 

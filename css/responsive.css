@@ -317,6 +317,20 @@
     .product__bottom-btn-row {
         margin: 180px 0 0;
     }
+
+
+    .mx-ul li {
+        margin-bottom: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .mx-ul li .s-text {
+        font-size: 16px;
+    }
+    .mx-ul li::before {
+        font-size: 13px;
+        top: 4px;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -346,6 +360,10 @@
         --inner-space: 20px;
     }
 
+
+    .hero-section--title__content-in-car {
+        padding: 0;
+    }
 }
 
 
@@ -659,6 +677,11 @@
     }
     .product__bottom-btn-row {
         margin: 50px 0 0;
+    }
+
+
+    .hero-section--title__content-in-car p {
+        line-height: 1.65;
     }
 }
 
