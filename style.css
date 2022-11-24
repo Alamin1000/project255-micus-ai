@@ -1056,16 +1056,30 @@ p:last-child{
 }
 
 .frame-x__frame {
-
+  border: 1px solid  #ddd;
+  border-radius: 6px;
 }
-.frame-x__frame .frame-img {
-
+.frame-x__frame .gist-data {
+  background-color: var(--color-canvas-default);
+  border-bottom: 1px solid #ddd;
+  border-radius: 6px 6px 0 0;
+  overflow: auto;
+}
+.frame-x__frame .gist-data iframe {
+  height: 490px;
 }
 .frame-x__bt {
   margin: 45px 0 0;
 }
 .frame-x__bt p {
 
+}
+.frame-x__frame .gist-meta {
+  padding: 15px;
+  font-size: 12px;
+  color: #57606a;
+  background: #F7F7F7;
+  border-radius: 0 0 6px 6px;;
 }
 /* ---frame-x-section---end */
 
@@ -1097,6 +1111,11 @@ p:last-child{
   border-radius: 30px;
   display: flex;
   flex-direction: column;
+  transition: 0.3s;
+}
+.pricing-card:hover {
+  background: #F0FFF3;
+  box-shadow: 0px 40px 45px rgba(42, 63, 46, 0.12);
 }
 .pricing-card--focus {
   background: #F0FFF3;
@@ -1119,8 +1138,13 @@ p:last-child{
 .pricing-card__prow {
   padding: 7px 0;
   background: #F8F8F8;
+  transition: 0.3s;
 }
 .pricing-card--focus .pricing-card__prow {
+  background: var(--theme__color1);
+  color: #fff;
+}
+.pricing-card:hover .pricing-card__prow {
   background: var(--theme__color1);
   color: #fff;
 }
@@ -1142,8 +1166,12 @@ p:last-child{
   color: var(--theme__color1);
   display: inline-block;
   margin: 0 3px 0 5px;
+  transition: 0.3s;
 }
 .pricing-card--focus .pricing-card__prow h3 .value {
+  color: #fff;
+}
+.pricing-card:hover .pricing-card__prow h3 .value {
   color: #fff;
 }
 .pricing-card__prow h3 .time {
@@ -1259,6 +1287,7 @@ p:last-child{
 }
 
 .product__cont-row {
+  padding: 0 10%;
   margin: 0 0 400px;
   display: flex;
   align-items: center;

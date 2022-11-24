@@ -364,6 +364,11 @@
     .hero-section--title__content-in-car {
         padding: 0;
     }
+
+
+    .product__cont-row {
+        padding: 0 0%;
+      }
 }
 
 
