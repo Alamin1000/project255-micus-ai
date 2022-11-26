@@ -51,6 +51,12 @@
   });
 
 
+  // cookie
+  $('.cookie__close-button').click(function(){
+    $('.cookie-popup').addClass('d-none');
+  })
+
+
         
 
 })(jQuery);
