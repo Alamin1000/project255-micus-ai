@@ -331,6 +331,11 @@
         font-size: 13px;
         top: 4px;
     }
+
+
+    p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -505,6 +510,13 @@
     }
     .product__bottom-btn-row {
         margin: 60px 0 0;
+    }
+
+
+    .cookie__row1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
 

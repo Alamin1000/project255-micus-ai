@@ -1343,3 +1343,27 @@ p:last-child{
   justify-content: center;
 }
 /* ---product-section---end */
+
+
+
+/* ---cookie-popup--- */
+.cookie-popup {
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  z-index: 10000090;
+}
+.cookie-popup__inner {
+
+}
+.cookie__row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+/* ---cookie-popup---end */
